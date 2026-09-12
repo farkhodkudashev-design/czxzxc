@@ -1,110 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steam — GameZone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container nav">
+      <div class="container nav">
+        <a href="./index.html" class="logo">GAME<span>ZONE</span></a>
 
-            <a href="index.html" class="logo">GAME<span>ZONE</span></a>
-
-            <nav class="menu">
-                <a href="index.html">Главная</a>
-                <a href="steam.html" class="active">Steam</a>
-                <a href="gameguard.html">GameGuard</a>
-                <a href="fastcup.html">Fastcup</a>
-                <a href="faceit.html">Faceit</a>
-                <a href="discord.html">Discord</a>
-            </nav>
-
-        </div>
+        <nav class="menu">
+          <a href="./index.html">Главная</a>
+          <a href="./steam.html" class="active">Steam</a>
+          <a href="./gameguard.html">GameGuard</a>
+          <a href="./fastcup.html">Fastcup</a>
+          <a href="./faceit.html">Faceit</a>
+          <a href="./discord.html">Discord</a>
+        </nav>
+      </div>
     </header>
 
     <main>
+      <section class="page-hero">
+        <div class="container page-content">
+          <div class="page-text">
+            <p class="subtitle">ИГРОВАЯ ПЛАТФОРМА</p>
 
-        <section class="page-hero">
-            <div class="container page-content">
+            <h1>Steam</h1>
 
-                <div class="page-text">
-                    <p class="subtitle">ИГРОВАЯ ПЛАТФОРМА</p>
+            <p>
+              Steam — одна из крупнейших платформ для покупки, запуска и
+              управления компьютерными играми.
+            </p>
 
-                    <h1>Steam</h1>
+            <a href="./index.html" class="btn btn-primary">
+              Вернуться на главную
+            </a>
+          </div>
 
-                    <p>
-                        Steam — одна из крупнейших платформ для покупки,
-                        запуска и управления компьютерными играми.
-                    </p>
+          <div class="page-image">
+            <img src="https://picsum.photos/600/400" alt="Steam" />
+          </div>
+        </div>
+      </section>
 
-                    <a href="index.html" class="btn btn-primary">
-                        Вернуться на главную
-                    </a>
-                </div>
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <p class="subtitle">ВОЗМОЖНОСТИ</p>
+            <h2>Steam для геймеров</h2>
+          </div>
 
-                <div class="page-image">
-                    <img
-                        src="https://picsum.photos/600/400"
-                        alt="Steam"
-                    >
-                </div>
+          <div class="cards">
+            <article class="card">
+              <div class="card-icon">🎮</div>
+              <h3>Большая библиотека</h3>
+              <p>Тысячи игр разных жанров доступны в одной платформе.</p>
+            </article>
 
-            </div>
-        </section>
+            <article class="card">
+              <div class="card-icon">👥</div>
+              <h3>Друзья</h3>
+              <p>Добавляй друзей, создавай группы и играй вместе.</p>
+            </article>
 
-        <section class="section">
-            <div class="container">
-
-                <div class="section-title">
-                    <p class="subtitle">ВОЗМОЖНОСТИ</p>
-                    <h2>Steam для геймеров</h2>
-                </div>
-
-                <div class="cards">
-
-                    <article class="card">
-                        <div class="card-icon">🎮</div>
-                        <h3>Большая библиотека</h3>
-                        <p>
-                            Тысячи игр разных жанров доступны
-                            в одной платформе.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">👥</div>
-                        <h3>Друзья</h3>
-                        <p>
-                            Добавляй друзей, создавай группы
-                            и играй вместе.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">☁️</div>
-                        <h3>Облачные сохранения</h3>
-                        <p>
-                            Сохраняй игровой прогресс
-                            и продолжай играть на другом ПК.
-                        </p>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
+            <article class="card">
+              <div class="card-icon">☁️</div>
+              <h3>Облачные сохранения</h3>
+              <p>Сохраняй игровой прогресс и продолжай играть на другом ПК.</p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container footer-content">
-            <p>© 2026 GAMEZONE</p>
-            <p>Играй. Побеждай. Общайся.</p>
-        </div>
+      <div class="container footer-content">
+        <p>© 2026 GAMEZONE</p>
+        <p>Играй. Побеждай. Общайся.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

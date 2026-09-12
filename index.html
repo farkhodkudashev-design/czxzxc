@@ -1,165 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameZone — Игровой клуб</title>
 
     <!-- Общий файл стилей -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container nav">
-            <a href="index.html" class="logo">GAME<span>ZONE</span></a>
+      <div class="container nav">
+        <a href="./index.html" class="logo">GAME<span>ZONE</span></a>
 
-            <nav class="menu">
-                <a href="index.html" class="active">Главная</a>
-                <a href="steam.html">Steam</a>
-                <a href="gameguard.html">GameGuard</a>
-                <a href="fastcup.html">Fastcup</a>
-                <a href="faceit.html">Faceit</a>
-                <a href="discord.html">Discord</a>
-            </nav>
-        </div>
+        <nav class="menu">
+          <a href="./index.html" class="active">Главная</a>
+          <a href="./steam.html">Steam</a>
+          <a href="./gameguard.html">GameGuard</a>
+          <a href="./fastcup.html">Fastcup</a>
+          <a href="./faceit.html">Faceit</a>
+          <a href="./discord.html">Discord</a>
+        </nav>
+      </div>
     </header>
 
     <main>
+      <!-- Главный экран -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="subtitle">ДОБРО ПОЖАЛОВАТЬ В</p>
 
-        <!-- Главный экран -->
-        <section class="hero">
-            <div class="container hero-content">
+            <h1>GAME<span>ZONE</span></h1>
 
-                <div class="hero-text">
-                    <p class="subtitle">ДОБРО ПОЖАЛОВАТЬ В</p>
+            <p class="hero-description">
+              Игровой клуб для тех, кто хочет играть, соревноваться и общаться с
+              настоящими геймерами.
+            </p>
 
-                    <h1>
-                        GAME<span>ZONE</span>
-                    </h1>
+            <div class="hero-buttons">
+              <a href="./steam.html" class="btn btn-primary"> Начать играть </a>
 
-                    <p class="hero-description">
-                        Игровой клуб для тех, кто хочет играть,
-                        соревноваться и общаться с настоящими геймерами.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="steam.html" class="btn btn-primary">
-                            Начать играть
-                        </a>
-
-                        <a href="discord.html" class="btn btn-secondary">
-                            Наш Discord
-                        </a>
-                    </div>
-                </div>
-
-                <div class="hero-image">
-                    <img
-                        src="https://picsum.photos/600/400"
-                        alt="Игровой клуб"
-                    >
-                </div>
-
+              <a href="./discord.html" class="btn btn-secondary">
+                Наш Discord
+              </a>
             </div>
-        </section>
+          </div>
 
-        <!-- Преимущества -->
-        <section class="section">
-            <div class="container">
+          <div class="hero-image">
+            <img src="https://picsum.photos/600/400" alt="Игровой клуб" />
+          </div>
+        </div>
+      </section>
 
-                <div class="section-title">
-                    <p class="subtitle">ПОЧЕМУ МЫ?</p>
-                    <h2>Всё для комфортной игры</h2>
-                </div>
+      <!-- Преимущества -->
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <p class="subtitle">ПОЧЕМУ МЫ?</p>
+            <h2>Всё для комфортной игры</h2>
+          </div>
 
-                <div class="cards">
+          <div class="cards">
+            <article class="card">
+              <div class="card-icon">🎮</div>
+              <h3>Игры</h3>
+              <p>Большой выбор популярных игр для любого типа геймеров.</p>
+            </article>
 
-                    <article class="card">
-                        <div class="card-icon">🎮</div>
-                        <h3>Игры</h3>
-                        <p>
-                            Большой выбор популярных игр
-                            для любого типа геймеров.
-                        </p>
-                    </article>
+            <article class="card">
+              <div class="card-icon">🏆</div>
+              <h3>Турниры</h3>
+              <p>Участвуй в соревнованиях, поднимай рейтинг и побеждай.</p>
+            </article>
 
-                    <article class="card">
-                        <div class="card-icon">🏆</div>
-                        <h3>Турниры</h3>
-                        <p>
-                            Участвуй в соревнованиях,
-                            поднимай рейтинг и побеждай.
-                        </p>
-                    </article>
+            <article class="card">
+              <div class="card-icon">⚡</div>
+              <h3>Высокая скорость</h3>
+              <p>
+                Стабильное соединение и комфортная игра без лишних задержек.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-                    <article class="card">
-                        <div class="card-icon">⚡</div>
-                        <h3>Высокая скорость</h3>
-                        <p>
-                            Стабильное соединение и комфортная
-                            игра без лишних задержек.
-                        </p>
-                    </article>
+      <!-- Платформы -->
+      <section class="section section-dark">
+        <div class="container">
+          <div class="section-title">
+            <p class="subtitle">ПЛАТФОРМЫ</p>
+            <h2>Играй там, где удобно</h2>
+          </div>
 
-                </div>
-            </div>
-        </section>
+          <div class="platform-grid">
+            <a href="./steam.html" class="platform">
+              <span>🎮</span>
+              <h3>Steam</h3>
+              <p>Игры и библиотека</p>
+            </a>
 
-        <!-- Платформы -->
-        <section class="section section-dark">
-            <div class="container">
+            <a href="./gameguard.html" class="platform">
+              <span>🛡️</span>
+              <h3>GameGuard</h3>
+              <p>Защита от читеров</p>
+            </a>
 
-                <div class="section-title">
-                    <p class="subtitle">ПЛАТФОРМЫ</p>
-                    <h2>Играй там, где удобно</h2>
-                </div>
+            <a href="./fastcup.html" class="platform">
+              <span>⚔️</span>
+              <h3>Fastcup</h3>
+              <p>Соревновательные игры</p>
+            </a>
 
-                <div class="platform-grid">
+            <a href="./faceit.html" class="platform">
+              <span>🏆</span>
+              <h3>Faceit</h3>
+              <p>Рейтинговые матчи</p>
+            </a>
 
-                    <a href="steam.html" class="platform">
-                        <span>🎮</span>
-                        <h3>Steam</h3>
-                        <p>Игры и библиотека</p>
-                    </a>
-
-                    <a href="gameguard.html" class="platform">
-                        <span>🛡️</span>
-                        <h3>GameGuard</h3>
-                        <p>Защита от читеров</p>
-                    </a>
-
-                    <a href="fastcup.html" class="platform">
-                        <span>⚔️</span>
-                        <h3>Fastcup</h3>
-                        <p>Соревновательные игры</p>
-                    </a>
-
-                    <a href="faceit.html" class="platform">
-                        <span>🏆</span>
-                        <h3>Faceit</h3>
-                        <p>Рейтинговые матчи</p>
-                    </a>
-
-                    <a href="discord.html" class="platform">
-                        <span>💬</span>
-                        <h3>Discord</h3>
-                        <p>Общение игроков</p>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
+            <a href="./discord.html" class="platform">
+              <span>💬</span>
+              <h3>Discord</h3>
+              <p>Общение игроков</p>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container footer-content">
-            <p>© 2026 GAMEZONE. Все права защищены.</p>
-            <p>Играй. Побеждай. Общайся.</p>
-        </div>
+      <div class="container footer-content">
+        <p>© 2026 GAMEZONE. Все права защищены.</p>
+        <p>Играй. Побеждай. Общайся.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
